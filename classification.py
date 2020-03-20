@@ -1,7 +1,6 @@
 from pathlib import Path
 import numpy as np
 import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
 
 dataset_path = Path(__file__).resolve().parent / 'iris.data'
 print(dataset_path)
@@ -56,11 +55,8 @@ b2 = tf.Variable(tf.random_uniform([1, Z2], -0.01, 0.01, dtype=tf.float32))
 b3 = tf.Variable(tf.random_uniform([1, 3], -0.01, 0.01, dtype=tf.float32))
 
 a1 = tf.nn.relu(tf.matmul(train_data_, W1) + b1)
-# print("a1",a1)
 a2 = tf.nn.relu(tf.matmul(a1, W2) + b2)
-# print("a2",a2)
 model_output = tf.matmul(a2, W3) + b3
-# print("mop",model_output)
 
 sess.run(tf.global_variables_initializer())
 
