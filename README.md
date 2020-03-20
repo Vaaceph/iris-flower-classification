@@ -1,6 +1,6 @@
 # Iris Flower Classification
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-green.svg)](https://www.python.org/dev/peps/pep-0008/)
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)  </br></br>
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](https://github.com/Vaaceph/iris-flower-classification/blob/master/LICENSE.md)  </br></br>
 Iris flower classification using Machine learning, also referred as *Hello World* for Machine Learning. It is very basic classification problem which helps understand basic concept of Machine Learning for beginners. </br></br>
 Three class for classification are as follows:</br>
 
@@ -109,4 +109,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/Vaaceph/iris-flower-classification/blob/master/LICENSE.md)
